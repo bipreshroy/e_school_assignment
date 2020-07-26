@@ -30,7 +30,10 @@ body{
     background-color:#21B573 ;
     color: #fff;
 }
-.btn_sign_in:hover{
+button{
+    transition: 0.8s;
+}
+button:hover{
     background-color:#fff ;
     color: #21B573 ;
 }
@@ -46,6 +49,7 @@ body{
 }
 .header_body_text h1{
     margin-bottom: 20px;
+    font-weight: bold;
 }
 .btn_started{
     width: 153px;
@@ -60,13 +64,13 @@ body{
     margin-top: 100px;
 }
 .book_box{
+    border: 10px solid #E5E5E5;
     background: #b9f7d4;
     border-radius: 10px;
     padding-top: 35px;
     transition: 0.8s;
 }
 .book_box:hover{
-    box-shadow: 5px 5px 10px gray ;
     background: #F8FFFB;
     transform: scale(1.02);
 }
@@ -74,9 +78,10 @@ body{
     width:30%;
 }
 .book_box h4{
-    font-size: 24px;
+    font-size:20px;
     margin-top: 15px;
     color: #413960;
+    font-weight: bold;
 }
 .book_box p{
     font-size:16px;
@@ -101,6 +106,9 @@ body{
     width:15%;
     margin-right:55px;
 }
+.card-title {
+    font-weight: bold;
+}
 .card_footer_item p{
     font-size: 12px;
     position: absolute;
@@ -114,11 +122,12 @@ body{
     margin-top: 100px;
     margin-bottom: 100px;
 }
-.testimonial_title{
+.section_title{
     font-size: 36px;
     color:#000 ;
     text-align: center;
     margin-bottom: 50px;
+    font-weight: bold;
 }
 .testimonial_box{
     max-width: 600px;
@@ -138,10 +147,11 @@ body{
     height: 370px;
     padding-top:70px;
     color: #fff;
-    font-size: 18px;
+    line-height: 30px;
 }
 .bottom_list h5{
     margin-left: 40px;
+    font-weight: bold;
   }
 .bottom_list ul{
   list-style: none;
@@ -149,6 +159,6 @@ body{
 .copy_right{
     color: #fff;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 70px;
 }
